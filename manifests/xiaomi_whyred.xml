@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (C) 2020 Dreemurrs Embedded Labs <github.com/dreemurrs-embedded>
+-->
+<manifest>
+    <!-- Remotes -->
+    <remote name="whyred" fetch="https://github.com/Halium-Whyred" revision="halium-9.0" />
+
+    <!-- Device Tree -->
+    <project path="device/xiaomi/whyred" name="UbPorts_device_xiaomi_whyred" remote="whyred" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/whyred" name="UbPorts_kernel_xiaomi_whyred" remote="whyred" />
+
+    <!-- Proprietary/Vendor blobs -->
+    <project path="vendor/xiaomi/whyred" name="UbPorts_vendor_xiaomi_whyred" remote="whyred" />
+</manifest>
